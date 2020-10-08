@@ -1,5 +1,5 @@
 #Fibonacci No we have to print
-def find_fibonacci(n):
+def find_fibonacci(n: int)->int:#-> is showing that the return type is int thats why we annotate our code by using (n: int) -> int
     last, second_last = 1, 0
     if 0<=n<=1:
         return n
